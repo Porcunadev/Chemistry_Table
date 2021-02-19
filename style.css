@@ -1,0 +1,176 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    --alkali-metals:#FFD400;
+    --alkaline-earth-metals:#FFC15E;
+    --lanthanoids:#59C9A5;
+    --actinides:#B9E3C6;
+    --transition-metals:#CC5803;
+    --post-transition-metals:#42CAFD;
+    --metalloids:#D90368;
+    --other-nonmetals:#C1DF1F;
+    --noble-gases:#9067C6;
+    --unknown:#F1E9DA;
+    font-family: 'Quicksand';
+    font-family: 'GFS-Neohellenic';
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    background-color:#1f1d1d;
+
+}
+
+.section-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:50px;
+}
+
+figure {
+    width:90px;
+    height:90px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    margin-left:-35px;
+}
+
+figure:hover {
+    transform: scale(1.2);
+    opacity: 2;
+    border: 3.5px solid;
+    
+    
+}
+
+.js-event {
+    transform: scale(1.2);
+    opacity: 2;
+    border: 3.5px solid;
+}
+
+.js-event-dimmer {
+    opacity: .2;
+}
+
+.am{
+    color:var(--alkali-metals);
+}
+.aem{color:var(--alkaline-earth-metals);}
+.l{color:var(--lanthanoids);}
+.a{color:var(--actinides);}
+.tm{color:var(--transition-metals);}
+.ptm{color:var(--post-transition-metals);}
+.m{color:var(--metalloids);}
+.on{color:var(--other-nonmetals);}
+.ng{color:var(--noble-gases);}
+.u{color:var(--unknown);}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:50px;
+}
+
+.section-b-subsection {
+    display: flex;
+    flex-direction:row;
+}
+
+.section-c {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+}
+
+.section-d {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.atom-num {
+    display: flex;
+    margin-left: 70px;
+    font-size:.7rem;
+}
+
+
+.alkali-metals {
+    color:var(--alkali-metals);
+    border: 2px solid var(--alkali-metals);
+    box-shadow:1px 1px 5px 1px var(--alkali-metals);
+}
+
+.alkaline-earth-metals {
+    color:var(--alkaline-earth-metals);
+    border: 2px solid var(--alkaline-earth-metals);
+    box-shadow:1px 1px 5px 1px var(--alkaline-earth-metals);
+}
+.lanthanoids {
+    color:var(--lanthanoids);
+    border: 2px solid var(--lanthanoids);
+    box-shadow:1px 1px 5px 1px var(--lanthanoids);
+}
+
+.actinides {
+    color:var(--actinides);
+    border: 2px solid var(--actinides);
+    box-shadow:1px 1px 5px 1px var(--actinides);
+}
+
+.transition-metals {
+    color:var(--transition-metals);
+    border: 2px solid var(--transition-metals);
+    box-shadow:1px 1px 5px 1px var(--transition-metals);
+}
+
+.post-transition-metals {
+    color:var(--post-transition-metals);
+    border: 2px solid var(--post-transition-metals);
+    box-shadow:1px 1px 5px 1px var(--post-transition-metals);
+}
+
+.metalloids {
+    color:var(--metalloids);
+    border: 2px solid var(--metalloids);
+    box-shadow:1px 1px 5px 1px var(--metalloids);
+}
+
+.other-nonmetals {
+    color:var(--other-nonmetals);
+    border: 2px solid var(--other-nonmetals);
+    box-shadow:1px 1px 5px 1px var(--other-nonmetals);
+}
+
+.noble-gases {
+    color:var(--noble-gases);
+    border: 2px solid var(--noble-gases);
+    box-shadow:1px 1px 5px 1px var(--noble-gases);
+}
+
+.unknown {
+    color:var(--unknown);
+    border: 2px solid var(--unknown);
+    box-shadow:1px 1px 5px 1px var(--unknown);
+}

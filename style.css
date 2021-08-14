@@ -56,13 +56,7 @@ figure:hover {
     border: 3.5px solid;
 }
 
-.js-event-dimmer {
-    opacity: .2;
-}
-
-.am{
-    color:var(--alkali-metals);
-}
+.am{  color:var(--alkali-metals);}
 .aem{color:var(--alkaline-earth-metals);}
 .l{color:var(--lanthanoids);}
 .a{color:var(--actinides);}

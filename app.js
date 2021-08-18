@@ -10,7 +10,7 @@ const nobleGasesGroup = document.querySelectorAll(".noble-gases");
 const unknownGroup = document.querySelectorAll(".unknown");
 const chemistryOptions = document.querySelector('.chemistry-options');
 
-function toggleEvent(e) {
+const toggleEvent = (e) => {
    const target = e.target.id;
 
    switch(target) {
